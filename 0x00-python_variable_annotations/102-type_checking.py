@@ -6,6 +6,7 @@ from typing import List, Tuple, Union
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
+    '''validating the code'''
     zoomed_in: List = [
         item for item in lst
         for i in range(factor)
