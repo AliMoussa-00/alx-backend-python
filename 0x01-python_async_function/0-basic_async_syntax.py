@@ -5,7 +5,7 @@ import random
 
 
 async def wait_random(max_delay: int = 10) -> float:
-    """
+    '''
     Asynchronously generates a random float value within range [0, max_delay].
 
     Parameters:
@@ -13,5 +13,5 @@ async def wait_random(max_delay: int = 10) -> float:
 
     Returns:
     float: A random float value within the range [0, max_delay].
-    """
+    '''
     return random.uniform(0, max_delay)
